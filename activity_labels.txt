@@ -1,0 +1,10 @@
+
+During the cleansing process, we put the activity lables into the data.  You will see in 
+x$subject, the following activity lables are inside the dataset.
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
