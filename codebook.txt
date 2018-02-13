@@ -1,0 +1,16 @@
+The cleansing includes the following process:
+
+1. Use the original data in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+   Then merge the training and the test sets (file name: X_train.txt & X_test.txt) to create one data set named x.
+
+2. There are 561 features variable.  We extracts only the measurements on the mean and standard deviation for 
+   each measurement.  Their feature names are used as column name.  For detail of the meaning of feature, 
+   please refer to 2 files feature_info and features.
+
+3. In the new data set x, the variable named subject is the activity performed.  
+   Descriptive names (Walking, Walking downstair, Walking upstair, Sitting, Standing, Laying) are used.
+
+4. In the new data set x, the variable named volunteer representing 1 to 30 volunteers.  
+   Each number representing one volunteer, in total we have 30 volunteers.
+
+5. Finally we make the average on each volunteer on each activity on the measurement of features on number 2 above. 
