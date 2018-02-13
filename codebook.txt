@@ -1,4 +1,4 @@
-The cleansing includes the following process:
+The steps of generating the new dataset are as follows:
 
 1. Use the original data in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
    Then merge the training and the test sets (file name: X_train.txt & X_test.txt) to create one data set named x.
