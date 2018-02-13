@@ -23,20 +23,15 @@ The new dataset includes the following files:
 =============================================
 'README.txt'
 
-'x.csv'
-the dataset is the average of each variable (the measurement of mean or standard deviation) for each activity and each subject.
+'x.csv': the dataset is the average of each variable (the measurement of mean or standard deviation) for each activity and each subject.
 
-'codebook.txt'
-describe how the merging, cleansing and getting the new dataset of x.csv
+'codebook.txt': describe how the merging, cleansing and getting the new dataset of x.csv
 
-'activity_labels.txt'
-6 activity names of the experiement
+'activity_labels.txt': 6 activity names of the experiement
 
-'features.txt'
-561 feature names of the experiment. During the cleansing process, we extracts only the measurements on the mean and standard deviation for each measurement.
+'features.txt': 561 feature names of the experiment. During the cleansing process, we extracts only the measurements on the mean and standard deviation for each measurement.
 
-'features_info.txt'
-description of those features
+'features_info.txt': description of those features
 
 License:
 Use of this dataset in publications must be acknowledged by referencing the following publication [1]
