@@ -14,10 +14,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The new dataset was merged and cleansed from the original data of the above link, each record of the new data set contains:
 ===========================================================================================================================
-Specific volunteer (1 to 30, have total 30 volunteers)
-Specific activity (Walking, Walking upstair, Walking downstair, Sitting, Standing, Laying, have total 6 type of activities)
-Average of the measurement of the features of mean
-Average of the measurement of the features of standard deviation
+- Specific volunteer (1 to 30, have total 30 volunteers)
+- Specific activity (Walking, Walking upstair, Walking downstair, Sitting, Standing, Laying, have total 6 type of activities)
+- Average of the measurement of the features of mean
+- Average of the measurement of the features of standard deviation
 
 The new dataset includes the following files:
 =============================================
