@@ -66,7 +66,7 @@ x$subject <- as.factor(as.character(x$subject))
 x$subject <- revalue(x$subject, c("1"="WALKING", "2"="WALKING_UPSTAIRS", "3"="WALKING_DOWNSTAIRS",
                                           "4"="SITTING","5"="STANDING", "6"="LAYING"))
 
-
+write.csv(x, "x.csv")
 
 
 
