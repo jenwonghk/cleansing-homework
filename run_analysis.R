@@ -1,3 +1,11 @@
+# Download data
+
+library(plyr)
+fileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl, destfile="./cleansing/UCI HAR Dataset.zip")
+zipF <- list.files(path="./cleansing", pattern = "*.zip", full.names = TRUE)
+ldply(.data = zipF, .fun=unzip)
+
 # Import data
 
 x_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
@@ -43,7 +51,6 @@ data4 <- data3
 
 data4$subject <- as.factor(as.character(data4$subject))
 
-library(plyr)
 data4$subject <- revalue(data4$subject, c("1"="WALKING", "2"="WALKING_UPSTAIRS", "3"="WALKING_DOWNSTAIRS",
                          "4"="SITTING","5"="STANDING", "6"="LAYING"))
 
